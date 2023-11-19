@@ -17,6 +17,20 @@ const iconClass = mergeStyles({
   margin: '0 5px',
 });
 
+const slider = (
+  <AwesomeSlider
+    // play={false}
+    // cancelOnInteraction={false} // should stop playing on user interaction
+    // interval={6000}
+    animation="openAnimation">
+      <div key={0}></div>
+      <div key={1}></div>
+      <div key={2}></div>
+      <div key={3}></div>
+      <div key={4}></div>
+    
+  </AwesomeSlider>
+);
  
 
 const NewsCarousel = (props: INewsCarouselProps) => {
@@ -87,7 +101,7 @@ const NewsCarousel = (props: INewsCarouselProps) => {
                 </div>
 
     })}
-  </AwesomeSlider>) :  <div>No news items available</div>
+  </AwesomeSlider>) : slider
   // //$('[data-index="1"]').click()
   //  return slider;
 };

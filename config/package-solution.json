@@ -2,7 +2,7 @@
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
     "name": "news-carousel-client-side-solution",
-    "id": "90a6ee2d-5ec9-4d42-a4d6-b2bd502c6fd1",
+    "id": "dd7266a8-7d7a-4fa1-9cc3-afc11aa02802",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
@@ -12,8 +12,27 @@
       "websiteUrl": "",
       "privacyUrl": "",
       "termsOfUseUrl": "",
-      "mpnId": ""
-    }
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "NewsCarousel description"
+      },
+      "longDescription": {
+        "default": "NewsCarousel description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "news-carousel Feature",
+        "description": "The feature that activates elements of the news-carousel solution.",
+        "id": "083b3c06-40c5-467b-838f-2a49dcd19121",
+        "version": "1.0.0.0"
+      }
+    ]
   },
   "paths": {
     "zippedPackage": "solution/news-carousel.sppkg"
